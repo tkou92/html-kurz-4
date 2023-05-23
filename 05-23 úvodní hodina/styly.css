@@ -1,0 +1,17 @@
+h1 {
+    color: red;
+    background-color: blueviolet;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    border: dashed 3px red;
+    /* kolega říkal, že by to mělo být modré ale mě se líbí červená */
+}
+
+p {
+    color: lightgreen;
+    background-color: black;
+    font-size: 25px;
+    font-weight: bold;
+}

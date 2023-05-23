@@ -1,0 +1,13 @@
+1.) Jak se jmenujete
+2.) Co vás sem přivádí
+3.) Co už víte o programování
+4.) Jaké máte plány
+
+HTML
+CSS
+JavaScript
+
+
+Python
+
+https://github.com/trohat/html-kurz-4
