@@ -1,0 +1,5 @@
+HTML prvky jsou dvou druhů
+
+blokové 
+
+řádkové
