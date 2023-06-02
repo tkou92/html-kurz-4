@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+}
+
+ul, ol, dl {
+    margin: 0;
+    padding: 0;
+}
+
+
+p,
+.modra
+{
+}
+
+.modra {
+    text-align: center;
+}
+
+li {
+}
+
+h2 {
+    background-color: chartreuse;
+}
+
+#druhy {
+    background-color: darkorchid;
+}
+
+.boxmodel {
+    color: lightgreen;
+    background-color: brown;
+    font-size: 150%;
+    font-weight: bold;
+}
+
+.zarovnani {
+    vertical-align: top;
+}
+
+ol {
+    list-style-type: lower-alpha;
+}
+
+ul {
+    list-style-image: url("ikony/spring_16.png");
+}
+
+.okraje {
+    padding: 15px;
+    border: 3px dashed;
+    margin: 10px;
+    padding-top: 35px;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    padding-right: 2px;
+    padding: 0 3px 7px;
+    border-left-width: 15px;
+    background-color: blue;
+}
