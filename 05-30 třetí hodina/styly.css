@@ -1,0 +1,41 @@
+p,
+.modra
+{
+}
+
+.modra {
+    text-align: center;
+}
+
+li {
+}
+
+h2 {
+    background-color: chartreuse;
+}
+
+#druhy {
+    background-color: darkorchid;
+}
+
+.boxmodel {
+    color: lightgreen;
+    background-color: brown;
+    font-size: 150%;
+    font-weight: bold;
+}
+
+.zarovnani {
+    vertical-align: top;
+}
+
+ol {
+    list-style-type: lower-alpha;
+}
+
+ul {
+    list-style-image: url("ikony/spring_16.png");
+}
+
+
+/* # = vyber idčko */
