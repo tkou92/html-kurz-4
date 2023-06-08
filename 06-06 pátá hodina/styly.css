@@ -1,0 +1,11 @@
+li.checked {
+    background-color: blueviolet;
+}
+
+li.checked > span {
+    text-decoration: line-through underline;
+}
+
+ul.hlavni li.checked>span {
+    border: 2px solid brown;
+}

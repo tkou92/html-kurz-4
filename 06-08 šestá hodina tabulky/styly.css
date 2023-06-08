@@ -1,0 +1,53 @@
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-spacing: 10px 5px;
+}
+
+td {
+    padding: 1px 3px;
+}
+
+td:last-child {
+    text-align: right;
+}
+
+th:not(:first-child) {
+    color: red;
+}
+
+thead tr,
+tfoot tr {
+    background-color: yellow;
+}
+
+td:nth-child(2) {
+    color:chocolate;
+}
+
+tbody tr:nth-child(3n) {
+    background-color: gray;
+}
+
+tbody tr:nth-child(3n+1) {
+    background-color: blueviolet;
+}
+
+tbody tr:nth-child(3n+2) {
+    background-color: rgb(78, 63, 92);
+}
+
+tfoot td:first-child {
+    text-align: center;
+    border-right: 0;
+}
+
+tfoot td:last-child {
+    border-left: 0;
+}
+
+tbody th {
+    vertical-align: bottom;
+}

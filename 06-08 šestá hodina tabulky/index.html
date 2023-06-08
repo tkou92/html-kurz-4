@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabulky</title>
+    <link rel="stylesheet" href="styly.css">
+</head>
+
+<body>
+    <table summary="Tabulka s cenami letenek, právě obsahuje 4 letenky">
+        <caption>Letenky</caption>
+        <thead>
+            <tr>
+                <th scope="col">Id</th>
+                <th scope="col">Odkud</th>
+                <th scope="col">Kam</th>
+                <th scope="col">Cena</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>Praha</td>
+                <td>Ženeva</td>
+                <td>10.000</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Praha</td>
+                <td>Londýn</td>
+                <td>2.000</td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>Londýn</td>
+                <td rowspan="6">Praha</td>
+                <td>15.000</td>
+            </tr>
+            <tr>
+                <th scope="row">4</th>
+                <td>Bratislava</td>
+                <td>1.500</td>
+            </tr>
+            <tr>
+                <th scope="row">4</th>
+                <td>Bratislava</td>
+                <td>1.500</td>
+            </tr>
+            <tr>
+                <th scope="row">4</th>
+                <td>Bratislava</td>
+                <td>1.500</td>
+            </tr>
+            <tr>
+                <th scope="row">4</th>
+                <td>Bratislava</td>
+                <td>1.500</td>
+            </tr>
+            <tr>
+                <th scope="row">4</th>
+                <td>Bratislava</td>
+                <td>1.500</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Součet:</td>
+                <td>28.500</td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+
+</html>
