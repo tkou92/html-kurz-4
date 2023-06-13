@@ -1,0 +1,31 @@
+h1 {
+    background-color: chocolate;
+    width: 200px;
+    height: 50px;
+    line-height: 3em;
+}
+
+h2 {
+    background-color: rgba(181, 54, 54, 1);  
+    font-size: 2ex; 
+}
+
+h3 {
+    background-color: hsl(104, 100%, 50%);
+    background-color: #4f0;
+}
+
+li {
+    width: 80%;
+    max-width: 400px;
+    max-height: 500px;
+
+}
+
+li:first-child {
+    background-color: hsl(360, 100%, 50%);
+}
+
+li:nth-child(2) {
+    background-color: hsla(360, 100%, 50%, 1);
+}

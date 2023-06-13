@@ -1,0 +1,30 @@
+.cerveny {
+    background-color: #ff0000;
+}
+
+.zeleny {
+    background-color: #00ff00;
+}
+
+.zluty {
+    background-color: #ffff00;
+}
+
+div {
+    border: 3px dashed brown;
+    /* margin: 10px; */
+    /* padding: 10px; */
+    height: 30px;
+    width: 100px;
+    float: left;
+}
+
+body {
+    /* font-size: 0; */
+    margin: 0;
+    word-spacing: 0;
+}
+
+.zluty {
+    /* float: right; */
+}
