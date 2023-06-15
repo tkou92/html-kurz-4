@@ -1,0 +1,32 @@
+div {
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    position: static;
+}
+
+/*  */
+
+.cerveny {
+    background-color: #ff0000;
+    /* position: fixed;
+    top: 200px; */
+    height: 300px;
+    
+}
+
+.zeleny {
+    background-color: #00ff00;
+    /*position: relative;
+    top: 100px;
+    left: 200px;*/
+
+    /* position: relative; */
+    position: sticky;
+    top: 0px;
+    left: 50px;
+}
+
+.modry {
+    background-color: #0000ff;
+}

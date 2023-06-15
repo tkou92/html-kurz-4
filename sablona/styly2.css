@@ -1,0 +1,17 @@
+div {
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+.cerveny {
+    background-color: #ff0000;
+}
+
+.zeleny {
+    background-color: #00ff00;
+}
+
+.modry {
+    background-color: #0000ff;
+}

@@ -1,0 +1,38 @@
+*,
+::before,
+::after 
+{
+    box-sizing: border-box;
+    
+}
+
+/* body,
+ul,
+ol,
+li {
+    margin: 0;
+    padding: 0;
+} */
+
+
+div {
+    height: 100px;
+    float: left;
+    padding: 10px;
+}
+
+.levy {
+    background-color: #ff0000;
+    width: 20%;
+}
+
+.stredni {
+    background-color: #00ff00;
+    width: 70%;
+    padding-left: 1px;
+}
+
+.pravy {
+    background-color: #0000ff;
+    width: 10%;
+}
