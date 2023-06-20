@@ -1,0 +1,22 @@
+.obdelnik {
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+    border: 3px dashed orangered
+}
+
+.obdelnik:nth-child(4n) {
+    background-color: chartreuse;
+}
+
+.obdelnik:nth-child(4n+1) {
+    background-color:rgb(233, 82, 27);
+}
+
+.obdelnik:nth-child(4n+2) {
+    background-color: darkturquoise;
+}
+
+.obdelnik:nth-child(4n+3) {
+    background-color: crimson
+}
