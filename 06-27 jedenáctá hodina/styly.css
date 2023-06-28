@@ -1,0 +1,72 @@
+body {
+    border: 2px solid black;
+}
+
+
+.logo,
+input,
+.nav,
+.main,
+.main__list,
+.main__gallery {
+    border: 2px solid black;
+    /* margin: 10px; */
+}
+
+body {
+    padding: 5px 8px;
+}
+
+.main__image--big {
+    width: 100%;
+    margin: 0 auto;
+    height: 150px;
+}
+
+.main__image--small {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    float: left;
+}
+
+.main__image--small:first-of-type {
+    margin-left: 0;
+}
+
+.main__image--big,
+.main__image--small {
+    background-color: gray;
+}
+
+.main__image--small:nth-child(n+7) {
+    display: none;
+}
+
+.main,
+.main__gallery,
+.main__list {
+    padding: 10px;
+}
+
+.main {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.main__heading--main {
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.main__list {
+    display: none;
+}
+
+.main__gallery {
+    overflow: auto;
+}
+
+.main__gallery h2 {
+    margin: 0;
+}
