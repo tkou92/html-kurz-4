@@ -1,0 +1,11 @@
+
+
+
+webové FORMULÁŘE
+
+
+
+http metody:
+GET - je vidět (vhodná pro bookmarky a přeposílání adres kamarádům)
+POST - není vidět (vhodná pro hesla)
+
