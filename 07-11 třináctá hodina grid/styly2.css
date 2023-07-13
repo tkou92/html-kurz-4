@@ -1,0 +1,36 @@
+header,
+main,
+aside,
+footer {
+    font-size: 80px;
+    border: 3px solid black;
+    background-color: chartreuse;
+    margin: 10px;
+}
+
+.kontejner {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 100px);
+    grid-template-areas: 
+            "hlavicka hlavicka hlavicka hlavicka"
+            "prase prase . postranni"
+            "hlavni hlavni . postranni"
+            "paticka paticka paticka paticka";
+}
+
+header {
+    grid-area: hlavicka;
+}
+
+main {
+    grid-area: hlavni;
+}
+
+aside {
+    grid-area: postranni;
+}
+
+footer {
+    grid-area: paticka;
+}

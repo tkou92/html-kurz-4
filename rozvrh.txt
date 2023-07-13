@@ -1,9 +1,3 @@
-responziv
-
-flexbox
-
-flexbox
-
 grid
 
 formuláře
