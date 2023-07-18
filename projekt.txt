@@ -1,0 +1,18 @@
+Požadavky na HTML projekt:
+
+Vytvořte hezkou webovou stránku s použitím HTML a CSS. Stránka může být na vámi zvolené téma (nápověda: cestování, jídlo/pití, vaše oblíbená kapela, váš koníček, nebo čistě o vás).
+
+Požadavky na stránku:
+HTML je validní a používá sémantické značky. 
+Stránka je responzivní.
+Názvy identifikátorů (např. tříd) jsou v angličtině (tohle je rozdíl oproti výuce, proto to zde zmiňuji).
+CSS ani HTML nepoužívají zastaralé postupy a splňují základní nároky na SEO (např. alt atributy u obrázků, floaty nejsou určené na komplexní design, design není pomocí HTML tabulek). 
+Stránka používá aspoň jeden z moderních postupů (např. flexbox, grid, ...), ideálně na více než jednom místě.
+Porjekt je pouze frontendový - fomuláře mají pouze vizuální stránku (nezpracovávají se na serveru).
+
+Bonusy:
+Stránka má nějakou hezkou animaci nebo přechod.
+Stránka používá nějaké techniky / knihovny, které jsme na hodinách nebrali.
+
+Git požadavek:
+Projekt je verzovaný na githubu a má dostatečné množství commitů (každá výrazná změna kódu = jeden commit).
