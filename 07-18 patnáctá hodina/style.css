@@ -1,0 +1,40 @@
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+div {
+    width: 200px;
+    height: 100px;
+    margin: 80px;
+}
+
+.cerveny {
+    background-color: red;
+}
+
+div {
+    /* transform: translateX(300px);*/
+    /* transform: translateY(200px); */
+    /*transform: translate(500px, 200px); */
+    /* transform: rotate(50deg); */
+    /* translate: 200px; */
+    /* rotate: 50deg;
+    transform-origin: 0 50%; */
+    /* transition-property: transform, background-color;
+    transition-duration: 3s, 2s;
+    transition-delay: 2s, 0s; */
+    transition-property: all;
+    transition-duration: 3s;
+    transition-timing-function: cubic-bezier(.28,-0.78,.9,1.62);
+    /* overflow: hidden; */
+}
+
+div:hover {
+    transform: rotate(90deg);
+    background-color: blue;
+}
