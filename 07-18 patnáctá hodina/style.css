@@ -30,11 +30,13 @@ div {
     transition-delay: 2s, 0s; */
     transition-property: all;
     transition-duration: 3s;
-    transition-timing-function: cubic-bezier(.28,-0.78,.9,1.62);
+    transition-timing-function: cubic-bezier(.4,-0.63,.84,1.67);
+    transition-timing-function: ease;
     /* overflow: hidden; */
 }
 
 div:hover {
-    transform: rotate(90deg);
+    /* transform: perspective(200px) rotateX(80deg); */
+    transform: perspective(200px) scale(1.2, 1.3) skew(20deg, 10deg);
     background-color: blue;
 }
