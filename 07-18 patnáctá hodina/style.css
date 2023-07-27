@@ -37,6 +37,7 @@ div {
 
 div:hover {
     /* transform: perspective(200px) rotateX(80deg); */
-    transform: perspective(200px) scale(1.2, 1.3) skew(20deg, 10deg);
+    /* transform: perspective(200px) scale(1.2, 1.3) skew(20deg, 10deg); */
+    translate: 90px;
     background-color: blue;
 }
